@@ -172,47 +172,6 @@ The project uses a refined two-table structure: athlete_events_cleaned, noc_regi
 See the Surface Level Exploration Notebook for full context.
 
 ---
-## 📂 Repository Structure
-
-**Data**
-- SportsStats.zip
-    - athlete_events.csv
-    - noc_regions.csv
-- SportsStats cleaned.zip
-    - athlete_events_cleaned.csv
-    - noc_regions_cleaned.csv
-    - sports_odc.csv
-
-**Notebooks:**
-- SportsStats Data Quality Assessment.ipynb
-- SportsStats Data Cleaning Procedure.ipynb
-- SportsStats Surface Level Exploration.ipynb
-- SportsStats Olympics Research Appendix.ipynb (coming soon)
-
-**HTML Files:**
-- SportsStats Data Quality Assessment.html
-- SportsStats Data Cleaning Procedure.html
-- SportsStats Surface Level Exploration.html
-
-**Markdown Files:**
-- SportsStats Data Quality Assessment.md
-- SportsStats Data Cleaning Procedure.md
-- SportsStats Surface Level Exploration.md
-
-**Screenshots:**
-- SportsStats_ERD.png
-- Screenshot_of_ath_events_query.png
-- Screenshot_of_data_updates.png
-- Screenshot_of_regex_queries.png
-- Screenshot_of_statistical_summary_exploration.png
-
-**Documents:**
-- SportsStats Project Proposal.pdf
-- SportsStats Executive Summary of Early Work.pdf 
-- README.md
-- LICENSE
-
----
 ## 📦 Requirements/Dependencies
 
 **Software:**
