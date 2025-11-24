@@ -21,16 +21,22 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ---
 ## 🚀 Quick Start
 
-**Want to explore the analysis?**
-1. 📊 **View the cleaned data**: Download `SportsStats cleaned.zip`
-2. 📓 **Read the notebooks**: Start with `SportsStats Data Quality Assessment.html` (no setup required!)
-3. 📄 **Executive overview**: See `SportsStats Executive Summary.pdf` for a 1-page summary
+**Want a quick summary of all the work completed in this repository?**
+→ See [SportsStats Executive Summary of Early Work](SportsStats Executive Summary of Early Work.pdf)
 
-**Want to reproduce the work?**
+**Just want to see the results?**
+→ Open any `.html` file (no installation needed!)  
+→ Start with `SportsStats Data Quality Assessment.html`
+
+**Want the cleaned data?**
+→ Download `SportsStats cleaned.zip`  
+→ Unzip and load `athlete_events_cleaned.csv`
+
+**Want to reproduce the analysis?**
 1. Clone this repository
-2. Extract `SportsStats.zip` to get the raw data
-3. Run the notebooks in order: DQA → Cleaning → Exploration
-4. All dependencies listed in [Requirements section below]
+2. Extract `SportsStats.zip` 
+3. Run notebooks in order: `01_DQA → 02_Cleaning → 03_Exploration`
+4. See [Requirements](#requirements) for dependencies
 
 ---
 ## Preview
