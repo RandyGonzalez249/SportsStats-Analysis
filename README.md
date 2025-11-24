@@ -57,12 +57,14 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ### Technical Skills
 
 **SQL & Database:**
+
 ✅ Complex joins & CTEs  
 ✅ Window functions & aggregations  
 ✅ Pattern matching & text manipulation  
 ✅ Database design & normalization
 
 **Python & Data Science:**
+
 ✅ Pandas for data manipulation  
 ✅ Jupyter for reproducible analysis  
 ✅ Data validation & quality checks  
@@ -71,12 +73,14 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ### Professional Skills
 
 **Data Quality:**
+
 ✅ Issue identification & prioritization  
 ✅ Root cause analysis  
 ✅ Systematic cleaning workflows  
 ✅ Documentation of limitations
 
 **Communication:**
+
 ✅ Technical documentation (notebooks)  
 ✅ Executive summaries (1-page PDFs)  
 ✅ Visual data modeling (ERDs)  
