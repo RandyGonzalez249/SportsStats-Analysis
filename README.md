@@ -36,6 +36,16 @@ Notebooks:
 - SportsStats Surface Level Exploration.ipynb
 - SportsStats Olympics Research Appendix.ipynb (coming soon)
 
+HTML Files:
+- SportsStats Data Quality Assessment.html
+- SportsStats Data Cleaning Procedure.html
+- SportsStats Surface Level Exploration.html
+
+Markdown Files:
+- SportsStats Data Quality Assessment.md
+- SportsStats Data Cleaning Procedure.md
+- SportsStats Surface Level Exploration.md
+
 Documents:
 - SportsStats Project Proposal.pdf
 - SportsStats Executive Summary of Early Work.pdf 
