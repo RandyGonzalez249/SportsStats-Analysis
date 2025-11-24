@@ -22,7 +22,7 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ## 🚀 Quick Start
 
 **Want a quick summary of all the work completed in this repository?**
-→ See [SportsStats Executive Summary of Early Work](SportsStats Executive Summary of Early Work.pdf)
+→ See `SportsStats Executive Summary of Early Work.pdf`
 
 **Just want to see the results?**
 → Open any `.html` file (no installation needed!)  
