@@ -54,6 +54,9 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ![Screenshot of Regex Queries](Screenshot_of_regex_queries.png)
 *Usage of Regular Expressions for data quality assessment*
 
+![Screenshot of Olympedia.org Research Example](Screenshot_of_Olympedia_Researc.png)
+*Research performed with Olympedia.org to cross-reference athletes and Olympic events at granular-level*
+
 ![Screenshot of Statistical Data Exploration](Screenshot_of_statistical_summary_exploration.png)
 *Statistical Analysis of Quantitative Data in Exploration*
 
