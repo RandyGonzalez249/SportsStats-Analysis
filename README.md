@@ -39,22 +39,32 @@ Built with: **Python** | **SQL (SQLite)** | **Pandas** | **Jupyter**
 
 ### Data Quality Assessment
 ![Preview of ath_events table](Screenshot_of_ath_events_query.png)
+
 *Validating 15 columns across 271K records—checking ranges, patterns, and integrity*
 
 ### Data Cleaning Transformations
 ![Screenshot of Data Updates](Screenshot_of_data_updates.png)
+
 *SQL-driven corrections: imputation for missing data (shown), removal of duplicates (not shown), etc.*
 
 ### Pattern Matching with Regex
 ![Screenshot of Regex Queries](Screenshot_of_regex_queries.png)
+
 *Identifying 43 dual-country team names using regex pattern matching—a key data quality issue*
+
+### Cross-Referencing through Research
+![Screenshot of Olympedia Research](Screenshot_of_Olympedia_Research.png)
+
+*External research with Olympedia.org to cross-reference for athlete and event information at granular-level*
 
 ### Statistical Exploration
 ![Screenshot of Statistical Data Exploration](Screenshot_of_statistical_summary_exploration.png)
+
 *Demographic analysis: age distributions (shown), medal patterns (not shown), geographic representation (not shown), etc.*
 
 ### Entity-Relationship Diagram
 ![SportsStats ERD](SportsStats_ERD.png)
+
 *Two-table structure connected by NOC data with a Many-to-One relationship between ath_events and noc_regions*
 
 ---
