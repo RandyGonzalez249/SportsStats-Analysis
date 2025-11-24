@@ -35,13 +35,13 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ---
 ## Preview
 
-![Preview of ath_events table](Screenshot of ath_events query.png)
+![Preview of ath_events table](Screenshot_of_ath_events_query.png)
 
-![Screenshot of Data Updates](Screenshot of data updates.png)
+![Screenshot of Data Updates](Screenshot_of_data_updates.png)
 
-![Screenshot of Regex Queries](Screenshot of regex queries.png)
+![Screenshot of Regex Queries](Screenshot_of_regex_queries.png)
 
-![Screenshot of Statistical Data Exploration](Screenshot of statistical summary exploration.png)
+![Screenshot of Statistical Data Exploration](Screenshot_of_statistical_summary_exploration.png)
 
 ![SportsStats ERD](SportsStats_ERD.png)
 
