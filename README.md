@@ -73,12 +73,14 @@ Built with: **Python** | **SQL (SQLite)** | **Pandas** | **Jupyter**
 ### Technical Skills
 
 **SQL & Database Management**
+
 ✅ Complex joins & CTEs *(linking athlete records to region data)*  
 ✅ Window functions & aggregations *(medal counts by country/era)*  
 ✅ Pattern matching & text manipulation *(regex for team name validation)*  
 ✅ Database design & normalization *(ERD development, relationship mapping)*
 
 **Python & Data Engineering**
+
 ✅ Pandas for data manipulation *(handling 271K+ records efficiently)*  
 ✅ Jupysql integration *(seamless SQL in Jupyter notebooks)*  
 ✅ Data validation frameworks *(systematic 15-column quality checks)*  
@@ -87,16 +89,18 @@ Built with: **Python** | **SQL (SQLite)** | **Pandas** | **Jupyter**
 ### Professional Competencies
 
 **Data Quality Management**
+
 ✅ Issue prioritization *(1,455 duplicates vs. historical nulls—what to fix first)*  
 ✅ Root cause analysis *(dual-country team names traced to early Olympic history)*  
 ✅ Systematic workflows *(assess → clean → validate → document)*  
 ✅ Limitation documentation *(transparent reporting of known gaps)*
 
 **Business Communication**
+
 ✅ Executive summaries *(1-page non-technical overview for leadership)*  
 ✅ Technical documentation *(reproducible Jupyter notebooks with markdown)*  
 ✅ Visual modeling *(ERD for stakeholder understanding)*
-🔜  Research citations *(cross-referenced with Olympedia.org and other sources)*  
+🔜 Research citations *(cross-referenced with Olympedia.org and other sources)*  
 
 ---
 ## 📝 Deliverables Included
