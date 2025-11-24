@@ -18,10 +18,25 @@ The project demonstrates end-to-end capabilities in:
 The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showcase professional readiness for data analytics roles requiring SQL, data preparation, exploratory analysis, and structured reporting.
 
 ---
+## 🚀 Quick Start
 
+**Want to explore the analysis?**
+1. 📊 **View the cleaned data**: Download `SportsStats cleaned.zip`
+2. 📓 **Read the notebooks**: Start with `SportsStats Data Quality Assessment.html` (no setup required!)
+3. 📄 **Executive overview**: See `SportsStats Executive Summary.pdf` for a 1-page summary
+
+**Want to reproduce the work?**
+1. Clone this repository
+2. Extract `SportsStats.zip` to get the raw data
+3. Run the notebooks in order: DQA → Cleaning → Exploration
+4. All dependencies listed in [Requirements section below]
+---
+## Preview
+
+---
 ## 📂 Repository Structure
 
-Data:
+**Data:**
 - SportsStats.zip
     - athlete_events.csv
     - noc_regions.csv
@@ -30,23 +45,23 @@ Data:
     - noc_regions_cleaned.csv
     - sports_odc.csv
 
-Notebooks:
+**Notebooks:**
 - SportsStats Data Quality Assessment.ipynb
 - SportsStats Data Cleaning Procedure.ipynb
 - SportsStats Surface Level Exploration.ipynb
 - SportsStats Olympics Research Appendix.ipynb (coming soon)
 
-HTML Files:
+**HTML Files:**
 - SportsStats Data Quality Assessment.html
 - SportsStats Data Cleaning Procedure.html
 - SportsStats Surface Level Exploration.html
 
-Markdown Files:
+**Markdown Files:**
 - SportsStats Data Quality Assessment.md
 - SportsStats Data Cleaning Procedure.md
 - SportsStats Surface Level Exploration.md
 
-Documents:
+**Documents:**
 - SportsStats Project Proposal.pdf
 - SportsStats Executive Summary of Early Work.pdf 
 - SportsStats ERD.png
