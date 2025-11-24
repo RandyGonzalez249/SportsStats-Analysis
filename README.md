@@ -17,7 +17,7 @@ Built with: **Python** | **SQL (SQLite)** | **Pandas** | **Jupyter**
 
 → See `SportsStats Executive Summary of Early Work.pdf`
 
-**Just want to see the results?**
+**Want to only see the results?**
 
 → Open any `.html` file (no installation needed!)  
 → Start with `SportsStats Data Quality Assessment.html`
@@ -32,7 +32,7 @@ Built with: **Python** | **SQL (SQLite)** | **Pandas** | **Jupyter**
 1. Clone this repository
 2. Extract `SportsStats.zip` 
 3. Run notebooks in order: `01_DQA → 02_Cleaning → 03_Exploration`
-4. See [Requirements](#requirements) for dependencies
+4. See *Requirements/Dependencies* for any other necessities
 
 ---
 ## Preview
