@@ -186,7 +186,6 @@ A high-level, non-technical summary intended for organizational leadership.
 ## 📈 Key Findings (Preview)
 
 - Dataset spans 51 Olympic Games across 120 years
-
 - Median athlete age: 24 years
 - Height and weight distributions align with modern athlete expectations
 - France, USA, and UK appear most frequently in historical team associations
