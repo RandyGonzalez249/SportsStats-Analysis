@@ -5,19 +5,11 @@ A Comprehensive SQL-Based Data Preparation Project Using 120 Years of Olympic Hi
 ---
 ## 📌 Overview
 
-This repository contains the full set of deliverables from Milestone 1 of a multi-stage data analytics project analyzing 120 years of Olympic athlete performance data.
-The project demonstrates end-to-end capabilities in:
+This project demonstrates end-to-end data preparation on **271,116 Olympic athlete records spanning 120 years** (1896-2016). Through systematic data quality assessment, research-backed cleaning, and SQL-driven transformations, I prepared messy historical data for advanced analytics—showcasing the real-world skills required for data analyst roles.
 
-- Data import and validation
-- Data quality assessment
-- Data cleaning & enrichment
-- Research documentation & cross-referencing
-- SQL-based data exploration
-- ERD development
-- Executive-level communication
+**Impact**: Removed 1,455 duplicates | Corrected 156 athlete records | Standardized 43 team names | Validated 15 columns across two decades of Olympic history
 
-The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showcase professional readiness for data analytics roles requiring SQL, data preparation, exploratory analysis, and structured reporting.
-
+Built with: **Python** | **SQL (SQLite)** | **Pandas** | **Jupyter**
 ---
 ## 🚀 Quick Start
 
@@ -45,59 +37,56 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ---
 ## Preview
 
+### Data Quality Assessment
 ![Preview of ath_events table](Screenshot_of_ath_events_query.png)
-*Systematic Column-by-column validation*
+*Validating 15 columns across 271K records—checking ranges, patterns, and integrity*
 
+### Data Cleaning Transformations
 ![Screenshot of Data Updates](Screenshot_of_data_updates.png)
-*Corrections completed in Data Cleaning Procedure*
+*SQL-driven corrections: imputation for missing data (shown), removal of duplicates (not shown), etc.*
 
+### Pattern Matching with Regex
 ![Screenshot of Regex Queries](Screenshot_of_regex_queries.png)
-*Usage of Regular Expressions for data quality assessment*
+*Identifying 43 dual-country team names using regex pattern matching—a key data quality issue*
 
-![Screenshot of Olympedia.org Research Example](Screenshot_of_Olympedia_Researc.png)
-*Research performed with Olympedia.org to cross-reference athletes and Olympic events at granular-level*
-
+### Statistical Exploration
 ![Screenshot of Statistical Data Exploration](Screenshot_of_statistical_summary_exploration.png)
-*Statistical Analysis of Quantitative Data in Exploration*
+*Demographic analysis: age distributions (shown), medal patterns (not shown), geographic representation (not shown), etc.*
 
+### Entity-Relationship Diagram
 ![SportsStats ERD](SportsStats_ERD.png)
-
-*Data takes on a two-table structure: NOC data relates ath_events data to noc_regions data with a Many-to-One Relationship*
+*Two-table structure connected by NOC data with a Many-to-One relationship between ath_events and noc_regions*
 
 ---
 ## 💼 Skills Demonstrated
 
 ### Technical Skills
 
-**SQL & Database:**
+**SQL & Database Management**
+✅ Complex joins & CTEs *(linking athlete records to region data)*  
+✅ Window functions & aggregations *(medal counts by country/era)*  
+✅ Pattern matching & text manipulation *(regex for team name validation)*  
+✅ Database design & normalization *(ERD development, relationship mapping)*
 
-✅ Complex joins & CTEs  
-✅ Window functions & aggregations  
-✅ Pattern matching & text manipulation  
-✅ Database design & normalization
+**Python & Data Engineering**
+✅ Pandas for data manipulation *(handling 271K+ records efficiently)*  
+✅ Jupysql integration *(seamless SQL in Jupyter notebooks)*  
+✅ Data validation frameworks *(systematic 15-column quality checks)*  
+✅ Automated pipelines *(CSV → SQLite → cleaned CSV exports)*
 
-**Python & Data Science:**
+### Professional Competencies
 
-✅ Pandas for data manipulation  
-✅ Jupyter for reproducible analysis  
-✅ Data validation & quality checks  
-✅ Statistical summarization
+**Data Quality Management**
+✅ Issue prioritization *(1,455 duplicates vs. historical nulls—what to fix first)*  
+✅ Root cause analysis *(dual-country team names traced to early Olympic history)*  
+✅ Systematic workflows *(assess → clean → validate → document)*  
+✅ Limitation documentation *(transparent reporting of known gaps)*
 
-### Professional Skills
-
-**Data Quality:**
-
-✅ Issue identification & prioritization  
-✅ Root cause analysis  
-✅ Systematic cleaning workflows  
-✅ Documentation of limitations
-
-**Communication:**
-
-✅ Technical documentation (notebooks)  
-✅ Executive summaries (1-page PDFs)  
-✅ Visual data modeling (ERDs)  
-🔜 Research logging (appendix)
+**Business Communication**
+✅ Executive summaries *(1-page non-technical overview for leadership)*  
+✅ Technical documentation *(reproducible Jupyter notebooks with markdown)*  
+✅ Visual modeling *(ERD for stakeholder understanding)*
+🔜  Research citations *(cross-referenced with Olympedia.org and other sources)*  
 
 ---
 ## 📝 Deliverables Included
@@ -150,39 +139,85 @@ A high-level, non-technical summary intended for organizational leadership.
 ---
 ## 🧭 Project Purpose
 
-The aim of this milestone is to prepare the Olympic athlete dataset for analysis by:
+This milestone prepares messy Olympic data for rigorous analysis through a three-phase approach:
 
-### 1. Assessing data quality:
+### Phase 1: Systematic Quality Assessment
+Identify duplicates, invalid NOC codes, missing demographics, inaccurate team labels, temporal inconsistencies, and broken foreign key relationships across 271K records.
 
-Detecting missing values, invalid patterns, inconsistent country codes, duplicate records, and structural issues.
+### Phase 2: Research-Backed Cleaning
+- Remove duplicates and standardize NOC codes
+- Correct team names using regex pattern matching
+- Handle nulls strategically (impute where possible, document where not)
+- Cross-reference historical anomalies with Olympedia.org and other sources
 
-### 2. Cleaning and standardizing data:
+### Phase 3: Exploratory Summary
+Generate demographic profiles, geographic distributions, sport/event coverage stats, and medal patterns to contextualize the cleaned data for future advanced analytics.
 
-- Removing duplicates
-- Resolving NOC inconsistencies
-- Handling missing values using external sources (Olympedia)
-- Correcting historically inaccurate team labels
-- Standardizing formats and text fields
-- Adding meaningful imputed values where appropriate
-
-### 3. Exploring high-level trends:
-
-Producing summary statistics on athletes, events, sports, regions, eras, and medals.
+**Result**: A production-ready dataset enabling analysis of 120 years of Olympic history with transparent documentation of all cleaning decisions and known limitations.
 
 ---
-## 📈 Key Findings (Preview)
+## 📈 Key Findings
 
-The project uses a refined two-table structure: athlete_events_cleaned, noc_regions_cleaned
-- athlete_events_cleaned: Contains cleaned athlete-level and event-level data (269,661 records)
-- noc_regions_cleaned: Contains standardized country/NOC-to-region mappings (230 records)
-- Datasets span 51 Olympic Games across 120 years
-- Median athlete age: 24 years
-- Height and weight distributions align with modern athlete expectations
-- France, USA, and UK appear most frequently in historical team associations
-- Shooting and Athletics have the most distinct events (83 each)
-- “No Medal” accounts for ~85% of entries (expected given participant-to-podium ratio)
+### Dataset Structure (Post-Cleaning)
+- **ath_events_cleaned**: 269,661 athlete participation records
+- **noc_regions_cleaned**: 230 National Olympic Committee mappings
+- **Relationship**: Many-to-One (athletes → NOCs)
+- **Time Span**: 51 Olympic Games across 120 years (1896-2016)
 
-See the Surface Level Exploration Notebook for full context.
+### Data Quality Improvements
+- ✅ **1,455 duplicate records** removed
+- ✅ **43 team names** corrected (dual-country labels fixed via regex)
+- ✅ **1 NOC code** standardized (Singapore: SIN → SGP)
+- ✅ **231,333 medal values** clarified (NULL → "No Medal")
+
+### Demographic Insights
+- **Median athlete age**: 24 years
+- **Age range**: 10-97 years (art competitions explain upper outliers)
+- **Height/weight data**: 77% completeness (missing pre-1920 data documented)
+- **Gender representation**: Tracked across 120-year evolution
+
+### Geographic & Sport Patterns
+- **Top participating nations**: France, USA, Great Britain
+- **Most event-dense sports**: Shooting & Athletics (83 events each)
+- **Medal distribution**: ~15% medalists vs. 85% non-medalists (expected ratio)
+
+*Full analysis available in Surface Level Exploration Notebook*
+
+---
+## 🗂️ Repository Structure
+```
+SportsStats-Analysis/
+│
+├── 📊 Data Files
+│   ├── SportsStats.zip                          # Raw data (271K records)
+│   └── SportsStats cleaned.zip                  # Cleaned data (269K records)
+│
+├── 📓 Analysis Notebooks
+│   ├── SportsStats Data Quality Assessment.*    # DQA (3 formats: .ipynb, .html, .md)
+│   ├── SportsStats Data Cleaning Procedure.*    # Cleaning (3 formats)
+│   ├── SportsStats Surface Level Exploration.*  # Exploration (3 formats)
+│   └── SportsStats Olympics Research Appendix.* # Coming soon
+│
+├── 📄 Documentation
+│   ├── SportsStats Project Proposal.pdf         # Analytical plan & hypotheses
+│   ├── SportsStats Executive Summary.pdf        # 1-page leadership overview
+│   └── SportsStats_ERD.png                      # Entity-relationship diagram
+│
+├── 📸 Screenshots
+│   ├── Screenshot_of_ath_events_query.png
+│   ├── Screenshot_of_data_updates.png
+│   ├── Screenshot_of_regex_queries.png
+│   ├── Screenshot_of_Olympedia_Research.png
+│   └── Screenshot_of_statistical_summary_exploration.png
+│
+├── README.md                                    # You are here
+└── LICENSE
+```
+
+**File Formats:**
+- `.ipynb` = Jupyter notebooks (editable)
+- `.html` = Standalone web view (no installation needed)
+- `.md` = Markdown (GitHub-rendered)
 
 ---
 ## 📦 Requirements/Dependencies
