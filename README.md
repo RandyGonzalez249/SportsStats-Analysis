@@ -100,6 +100,7 @@ Built with: **Python** | **SQL (SQLite)** | **Pandas** | **Jupyter**
 ✅ Executive summaries *(1-page non-technical overview for leadership)*  
 ✅ Technical documentation *(reproducible Jupyter notebooks with markdown)*  
 ✅ Visual modeling *(ERD for stakeholder understanding)*
+
 🔜 Research citations *(cross-referenced with Olympedia.org and other sources)*  
 
 ---
