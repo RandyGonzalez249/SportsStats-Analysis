@@ -198,7 +198,7 @@ See the Surface Level Exploration Notebook for full context.
 
 ---
 
-##📬 Contact
+## 📬 Contact
 
 Randy Gonzalez
 Data Analyst | Applied Mathematics (UCLA)
