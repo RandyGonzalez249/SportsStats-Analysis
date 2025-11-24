@@ -37,11 +37,11 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 
 ![Preview of ath_events table](Screenshot_of_ath_events_query.png)
 
-![Screenshot of Data Updates](Screenshot_of_data_updates.png)
+![Screenshot of Data Updates](Screenshot_of_ data_updates.png)
 
-![Screenshot of Regex Queries](Screenshot_of_regex_queries.png)
+![Screenshot of Regex Queries](Screenshot_of_regex _queries.png)
 
-![Screenshot of Statistical Data Exploration](Screenshot_of_statistical_summary_exploration.png)
+![Screenshot of Statistical Data Exploration](Screenshot_of _statistical_summary_exploration.png)
 
 ![SportsStats ERD](SportsStats_ERD.png)
 
