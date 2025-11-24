@@ -10,44 +10,38 @@ The project demonstrates end-to-end capabilities in:
 - Data import and validation
 - Data quality assessment
 - Data cleaning & enrichment
--Research documentation & cross-referencing
--SQL-based data exploration
--ERD development
--Executive-level communication
-
+- Research documentation & cross-referencing
+- SQL-based data exploration
+- ERD development
+- Executive-level communication
 
 The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showcase professional readiness for data analytics roles requiring SQL, data preparation, exploratory analysis, and structured reporting.
-
 
 ---
 
 ## 📂 Repository Structure
 
-├── data/
-│   ├── original/
-│   │   ├── athlete_events.csv
-│   │   ├── noc_regions.csv
-│   │   ├── olympics.db (original SQLite database)
-│   │   └── ...
-│   ├── cleaned/
-│   │   ├── athlete_events_cleaned.csv
-│   │   ├── noc_regions_cleaned.csv
-│   │   ├── olympics_cleaned.db
-│   │   └── ...
-│
-├── notebooks/
-│   ├── 1_Data_Quality_Assessment.ipynb
-│   ├── 2_Data_Cleaning_Procedure.ipynb
-│   ├── 3_Surface_Level_Exploration.ipynb
-│   ├── 4_Olympics_Research_Appendix.ipynb (coming soon)
-│
-├── documents/
-│   ├── Project_Proposal.pdf
-│   ├── Executive_Summary.pdf 
-│   └── ERD.png
-├── README.md
-└── LICENSE
+Data:
+- SportsStats.zip
+    - athlete_events.csv
+    - noc_regions.csv
+- SportsStats cleaned.zip
+    - athlete_events_cleaned.csv
+    - noc_regions_cleaned.csv
+    - sports_odc.csv
 
+Notebooks:
+- SportsStats Data Quality Assessment.ipynb
+- SportsStats Data Cleaning Procedure.ipynb
+- SportsStats Surface Level Exploration.ipynb
+- SportsStats Olympics Research Appendix.ipynb (coming soon)
+
+Documents:
+- SportsStats Project Proposal.pdf
+- SportsStats Executive Summary of Early Work.pdf 
+- SportsStats ERD.png
+- README.md
+- LICENSE
 
 ---
 
@@ -59,21 +53,22 @@ The aim of this milestone is to prepare the Olympic athlete dataset for analysis
 
 Detecting missing values, invalid patterns, inconsistent country codes, duplicate records, and structural issues.
 
-###2. Cleaning and standardizing data:
+### 2. Cleaning and standardizing data:
 
--Removing duplicates
--Resolving NOC inconsistencies
--Handling missing values using external sources (Olympedia)
--Correcting historically inaccurate team labels
--Standardizing formats and text fields
--Adding meaningful imputed values where appropriate
+- Removing duplicates
+- Resolving NOC inconsistencies
+- Handling missing values using external sources (Olympedia)
+- Correcting historically inaccurate team labels
+- Standardizing formats and text fields
+- Adding meaningful imputed values where appropriate
 
-###3. Exploring high-level trends:
+### 3. Exploring high-level trends:
+
 Producing summary statistics on athletes, events, sports, regions, eras, and medals.
 
 ---
 
-##🔎 Skills Demonstrated
+## 🔎 Skills Demonstrated
 
 This project demonstrates proficiency in:
 
@@ -93,14 +88,12 @@ This project demonstrates proficiency in:
     - Historical verification (Olympedia research)
     - Outlier detection and documentation
 
-
 - Exploratory Data Analysis
     - Summary statistics
     - Distribution analysis
     - Demographic profiling
     - Geographic coverage
     - Sport/event frequency exploration
-
 
 - Professional Documentation
     - Notebook-based procedural walkthroughs
@@ -111,7 +104,7 @@ This project demonstrates proficiency in:
 
 ---
 
-##📊 Entity Relationship Diagram (ERD)
+## 📊 Entity Relationship Diagram (ERD)
 
 The project uses a refined two-table structure:
 
@@ -123,9 +116,9 @@ Contains standardized country/NOC-to-region mappings (230 records)
 
 ---
 
-##📝 Deliverables Included
+## 📝 Deliverables Included
 
-###✔️ 1. Data Quality Assessment Notebook
+### ✔️ 1. Data Quality Assessment Notebook
 
 Identifies structural issues in the raw dataset, including:
 
@@ -138,7 +131,7 @@ Identifies structural issues in the raw dataset, including:
 
 ---
 
-###✔️ 2. Data Cleaning Procedure Notebook
+### ✔️ 2. Data Cleaning Procedure Notebook
 
 Systematically resolves issues identified in the DQA through:
 
@@ -150,7 +143,7 @@ Systematically resolves issues identified in the DQA through:
 
 ---
 
-###✔️ 3. Surface Level Data Exploration Notebook
+### ✔️ 3. Surface Level Data Exploration Notebook
 
 Provides insights into the cleaned data through:
 
@@ -162,7 +155,7 @@ Provides insights into the cleaned data through:
 
 ---
 
-###✔️ 4. Project Proposal (PDF)
+### ✔️ 4. Project Proposal (PDF)
 
 Outlines the analytical plan for future milestones:
 
@@ -174,13 +167,13 @@ Outlines the analytical plan for future milestones:
 
 ---
 
-###✔️ 5. Executive Summary (PDF)
+### ✔️ 5. Executive Summary (PDF)
 
 A high-level, non-technical summary intended for organizational leadership.
 
 ---
 
-##📈 Key Findings (Preview)
+## 📈 Key Findings (Preview)
 
 - Dataset spans 51 Olympic Games across 120 years
 
@@ -194,7 +187,7 @@ See the Surface Level Exploration Notebook for full context.
 
 ---
 
-##🚀 Future Milestones
+## 🚀 Future Milestones
 
 - Advanced analytics & statistical modeling
 - Trend forecasting
