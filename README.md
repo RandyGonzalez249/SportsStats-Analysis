@@ -189,10 +189,16 @@ See the Surface Level Exploration Notebook for full context.
 - SportsStats Data Cleaning Procedure.md
 - SportsStats Surface Level Exploration.md
 
+**Screenshots:**
+- SportsStats_ERD.png
+- Screenshot_of_ath_events_query.png
+- Screenshot_of_data_updates.png
+- Screenshot_of_regex_queries.png
+- Screenshot_of_statistical_summary_exploration.png
+
 **Documents:**
 - SportsStats Project Proposal.pdf
 - SportsStats Executive Summary of Early Work.pdf 
-- SportsStats ERD.png
 - README.md
 - LICENSE
 
