@@ -36,14 +36,19 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 ## Preview
 
 ![Preview of ath_events table](Screenshot_of_ath_events_query.png)
+*Systematic Column-by-column validation*
 
 ![Screenshot of Data Updates](Screenshot_of_data_updates.png)
+*Corrections completed in Data Cleaning Procedure*
 
 ![Screenshot of Regex Queries](Screenshot_of_regex_queries.png)
+*Usage of Regular Expressions for data quality assessment*
 
 ![Screenshot of Statistical Data Exploration](Screenshot_of_statistical_summary_exploration.png)
+*Statistical Analysis of Quantitative Data in Exploration*
 
 ![SportsStats ERD](SportsStats_ERD.png)
+*Data takes on a two-table structure: NOC data relates ath_events data to noc_regions data with a Many-to-One Relationship*
 
 ---
 ## 💼 Skills Demonstrated
