@@ -48,6 +48,7 @@ The work is conducted in SQLite (via Jupyter + Jupysql) and is designed to showc
 *Statistical Analysis of Quantitative Data in Exploration*
 
 ![SportsStats ERD](SportsStats_ERD.png)
+
 *Data takes on a two-table structure: NOC data relates ath_events data to noc_regions data with a Many-to-One Relationship*
 
 ---
