@@ -201,6 +201,9 @@ See the Surface Level Exploration Notebook for full context.
 ## 📬 Contact
 
 Randy Gonzalez
+
 Data Analyst | Applied Mathematics (UCLA)
+
 📧 Email: randygonzalez249@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/randy-gonzalez-06b395261
